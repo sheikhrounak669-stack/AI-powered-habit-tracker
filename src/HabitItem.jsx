@@ -141,7 +141,7 @@ export default function HabitItem({task, onDelete, onUpdate, onEdit}) {
                 src={trashIcon}
                 alt="Trash"
                 className="w-6 h-6"
-								title="Delete Habit"
+				title="Delete Habit"
               />
             	</button>
 						</div>

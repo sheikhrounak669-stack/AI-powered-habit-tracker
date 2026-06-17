@@ -264,6 +264,7 @@ export default function App() {
             }`}
             //disabled is a property that makes an element (usually a button or input) unusable
             disabled={isGenerating}
+            onClick={generateSmartTasks}
             >
             {isGenerating ? "Processing..." : "Generate Smart Tasks"}
           </button>
