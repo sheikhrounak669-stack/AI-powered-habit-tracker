@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from './utils/supabase'; 
 import HabitItem from './HabitItem';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import Heatmap from './Heatmap';
+import Heatmap from './HeatMap';
 import Auth from './Auth';
 
 export default function App() {
