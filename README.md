@@ -1,16 +1,21 @@
-# React + Vite
+HabitForge
+HabitForge is an AI-powered habit-tracking application designed to turn chaotic daily thoughts into structured, consistent routines. Dump your messy brain dumps into the AI assistant, let it forge actionable habits, and track your streaks over time with a clean visual heatmap.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+AI Smart Generator (Gemini 2.5 Flash): Type out a messy paragraph about your day or goals, and the built-in AI assistant will automatically parse, clean, and extract unique, actionable habits. It even checks what you're already doing to avoid generating duplicates!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+30-Day Activity Heatmap: Visual tracking modeled after GitHub’s contribution grid, keeping you motivated by showing your consistency over the last month.
 
-## React Compiler
+Secure Authentication: Complete sign-up and log-in flows powered securely by Supabase Auth.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live Cloud Sync: Your habits, custom edits, and completion dates are stored in real-time using a Supabase database.
 
-## Expanding the ESLint configuration
+Inline CRUD Operations: Quick controls to add new habits, toggle completion with strikethroughs, edit habit names inline, or trash them permanently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+Frontend: React, Vite, Tailwind CSS
+
+Database & Auth: Supabase
+
+Artificial Intelligence: Google Gemini API (@google/generative-ai)
